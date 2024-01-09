@@ -2,45 +2,77 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="styles.css">
-    </head>
-    <header class="header">
+        <link rel="icon" href=".//pics/SD logo.jpeg">
         <meta charset="utf-8">
-        <div class="one">
-        <img class="heading" src=".//pics/SD logo.jpeg" height="200" width="200">
-        </div>
-        <div class="two">
-            <a href="https://www.github.com" target="_blank">Github</a>
-            <a href="https://www.yahoo.com" target="_blank">Yahoo</a>
-            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
-        </div>
-        <div class="three">
-            <h1 class="title">This website is awesome!</h1>
-        </div>
-    </header>
+        <title>Places Visited</title>
+    </head>
     <body>
-        <h1>Places Visited</h1>
-        <div class="pics">
-            <figure class="bodyimg">
-                <img src=".//pics/beach.jpeg" alt="picture of beach" height="200" width="200">
-                <figcaption>Myrtle Beach</figcaption>
-            </figure>
-            <figure class="bodyimg">
-                <img src=".//pics/citifield.jpeg" alt="picture of Citi Field" height="200" width="200">
-                <figcaption>Citi Field in New York</figcaption>
-            </figure>
-            <figure class="bodyimg">
-                <img src=".//pics/hamptons.jpeg" alt="picture of Hamptons" height="200" width="200">
-                <figcaption>The Hamptons</figcaption>
-            </figure>
-            <figure class="bodyimg>">
-                <img src=".//pics/AtlanticCity.jpeg" alt="picture of Atlantic City" height="200" width="200">
-                <figcaption>Atlantic City</figcaption>
-            </figure>
-        </div>
-        <div class="quote">
-            <p>This is an inspiring quote or a testimonial by a customer. Maybe it's just filling up space,
-                maybe some people will actually read it. Who knows? All I know is that it looks nice.
-            </p>
-            <p class="quotecap">Thor, God of Thunder</p>
+        <div class="container">
+
+            <nav class="sd navbar">
+                <div class="header-logo">
+                    <img src=".//pics/SD logo.jpeg">
+                </div>
+                <div class="header-link">
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Travel Rates</a>
+                </div>
+            </nav> 
+
+            <div class="sd header">
+                <div class="sd-1 sd-headmain">
+                    <h1>Places I Have Visited</h1>
+                    <p>Take a look at the places I have visited over the years.</p>
+                    <button button type="button">Sign Up!</button>
+                </div>
+
+                <div class="sd-1 sd-picmain">
+                    <img src=".//pics/travel.jpeg" alt="Travel Pic">
+                </div>
+            </div>
+
+            <div class="sd content">
+                <h2>Places I Have Visited</h2>
+                <div class="content-info">
+                    <div>
+                        <img src=".//pics/AtlanticCity.jpeg" alt="Atlantic City">
+                        <p>Atlantic City</p>
+                    </div>
+                    <div>
+                        <img src=".//pics/beach.jpeg" alt="Myrtle Beach">
+                        <p>Myrtle Beach</p>
+                    </div>
+                    <div>
+                        <img src=".//pics/citifield.jpeg" alt="Citi Field">
+                        <p>Citi Field</p>
+                    </div>
+                    <div>
+                        <img src=".//pics/hamptons.jpeg" alt="Hamptons in New York">
+                        <p>The Hamptons in New York</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sd quote">
+                <p>"To travel is to live."</p>
+                <b>
+                       -- Hans Christian Anderson
+                </b>
+            </div>
+            <div class="sd sign-up">
+                <div class="sign-item signs-text">
+                    <h3>Keep yourself updated with updated travel news!</h3>
+                    <p>Sign up now for updates!</p>
+                </div>
+
+                <div class="sign-item signs-button">
+                    <button button type="button">Sign Up!</button>
+                </div>
+            </div>
+            <div class="sd footer">
+                <p>Copyright The Odin Project 2024</p>
+            </div>
         </div>
     </body>
+
+</html>
